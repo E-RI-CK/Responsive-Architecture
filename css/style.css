@@ -1,0 +1,43 @@
+[class^="box"] {
+  /**/
+  margin: 3rem auto;
+  background-color: orangered;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+}
+
+.box-flexible {
+  width: 50%;
+  height: 20vh;
+}
+
+.box-flexible-2 {
+  max-width: 960px;
+  min-width: 280px;
+  max-height: 480px;
+  min-height: 280px;
+}
+
+/*Width y Height tienen mas peso.*/
+.box-flexible-3 {
+  max-width: 960px;
+  min-width: 280px;
+  max-height: 480px;
+  min-height: 280px;
+  width: 300px;
+  height: 300px;
+}
+
+/*Se unen las condiciones*/
+/*Se usa las propiedades relativas hasta que se llega a una condición max o min*/
+.box-flexible-4 {
+  max-width: 960px;
+  min-width: 280px;
+  max-height: 480px;
+  min-height: 280px;
+  width: 50%;
+  height: 20vh;
+}
