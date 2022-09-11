@@ -135,3 +135,8 @@ iframe {
     background-color: white;
   }
 }
+
+.box-fluid{
+  width: clamp(400px,60vw,600px);
+  height: clamp(200px,30vh,300px);
+}
